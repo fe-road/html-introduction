@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Learning HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">Name</label>
+            <div>
+                <input id="name" type="text" placeholder="Your name" autofocus />
+            </div>
+            
+            <label for="aboutYou">About you</label>
+            <div>
+                <textarea id="aboutYou" cols="40" rows="4" placeholder="Type something funny about you!"></textarea>
+            </div>
+
+            <label>Gender</label>
+            <div>
+                <input type="radio" id="radioMale" name="radioGender" />
+                <label for="radioMale">Male</label>
+
+                <input type="radio" id="radioFemale" name="radioGender" />
+                <label for="radioFemale">Female</label>
+
+                <input type="radio" id="radioRatherNotSay" name="radioGender" checked />
+                <label for="radioRatherNotSay">Rather not say</label>
+            </div>
+
+            <label for="hobbies">Hobbies</label>
+            <div>
+                <select id="hobbies" disabled>
+                    <option>Programming</option>
+                    <option>Traveling</option>
+                    <option>Resting</option>
+                    <option>Gaming</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" id="termsOfUse" />
+                <label for="termsOfUse">I accept the terms of use</label>
+            </div>
+
+            <div>
+                <input type="file" />
+            </div>
+            <div>
+                <input type="password" readonly />
+            </div>
+            <div>
+                <input type="date" />
+            </div>
+
+            <button type="button">Send</button>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

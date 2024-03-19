@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        
+        <form>
+            <div>
+                <label for="fullName">Full Name</label>
+                <input id="fullName" type="text" autofocus />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" />
+            </div>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" />
+            </div>
+
+            <div>
+                <span>I want to be contacted by:</span>
+                <input type="radio" id="radioEmail" name="radioPreferredContact" />
+                <label for="radioEmail">Email</label>
+
+                <input type="radio" id="radioPhone" name="radioPreferredContact" />
+                <label for="radioPhone">Phone</label>
+            </div>
+
+            <div>
+                <label for="subject">Subject</label>
+                <select id="subject">
+                    <option>Question</option>
+                    <option>Complain</option>
+                    <option>Suggestion</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+
+            <div>
+                <label for="attachment">Attachment</label>
+                <input type="file" id="attachment" />
+            </div>
+
+            <div>
+                <input type="checkbox" id="dataProtection" />
+                <label for="dataProtection">I agree to the Data Protection Rules</label>
+            </div>
+
+            <button type="button">Send</button>
+        </form>
+    </body>
+</html>
